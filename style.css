@@ -1,0 +1,97 @@
+:root{
+    --mainC: #FFC67D;
+    --secondaryC: #0097A7;
+    --accentC: #F2C464;
+}
+body {
+    background-color: #1f2029;
+}
+h2, h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+    color: var(--accentC);
+}
+h1 {
+    font-weight: 600;
+    font-size: 24px;
+}
+h2 {
+    font-weight: 400;
+    font-size: 24px;
+}
+.card {
+    color: white;
+    background-color: #2a2b38;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 50vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.log {
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    color: #f5f5f5;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10%;
+    font-size: 1.5em;
+}
+.emdiv, .passdiv {
+    display: flex;
+    align-items: center; 
+    padding-left: 5%;
+    background-color: #1f2029;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 20px; 
+}
+
+svg {
+    height: 1.2em;
+    width: 1.2em;
+    margin-right: 10px; 
+    fill:white;
+}
+input {
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #d3d3d3;
+    font-size: 1em;
+}
+button {
+    background-color: #0097A7;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+button:hover {
+    background-color: #00878f;
+    color:#1f2029
+}
+.forgot {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+    color : #00878f;
+}
+.forgot:hover{
+    color:#165353;
+}
